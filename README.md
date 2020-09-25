@@ -29,17 +29,17 @@ https://aka.ms/windowssdk
 
 https://github.com/mesonbuild/meson/releases/download/0.55.3/meson-0.55.3-64.msi
 
-Reboot
+Redémarrez
 
 Menu démarrer
  - x64 Native Tools Command Prompt for VS 2019
    - `cd %HOMEPATH%\Workspace\inf3610\lab1`
    - `code .`
 
-Installer les extensions recommendées
-Relancer VSCode
+Installez les extensions recommendées et relancez VSCode.
 
-Ctrl-Shift-B pour compiler
-F5 pour exécuter/déverminer
+Compilation: `Ctrl-Shift-B`
+
+Déverminage: `F5`
 
 [1]: https://flathub.org/apps/details/org.gnome.Builder
