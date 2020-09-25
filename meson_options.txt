@@ -1,0 +1,11 @@
+option('architecture',
+  description: 'Architecture',
+  type: 'string',
+  value: 'Win32',
+)
+
+option('compiler',
+  description: 'Compiler',
+  type: 'string',
+  value: 'Visual_Studio',
+)

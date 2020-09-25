@@ -1,0 +1,9 @@
+[submodule "subprojects/uC-CPU"]
+	path = subprojects/uC-CPU
+	url = https://github.com/concatime/uC-CPU.git
+[submodule "subprojects/uC-LIB"]
+	path = subprojects/uC-LIB
+	url = https://github.com/concatime/uC-LIB.git
+[submodule "subprojects/uC-OS3"]
+	path = subprojects/uC-OS3
+	url = https://github.com/concatime/uC-OS3.git

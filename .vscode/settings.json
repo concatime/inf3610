@@ -1,0 +1,13 @@
+{
+  "C_Cpp.default.compileCommands": "build/compile_commands.json",
+  "editor": {
+    "formatOnSave": true,
+    "rulers": [
+      80
+    ]
+  },
+  "mesonbuild": {
+    "configureOnOpen": true,
+    "buildFolder": "build"
+  }
+}
