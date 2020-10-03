@@ -5,6 +5,6 @@
     "EditorConfig.EditorConfig",
     "Gruntfuggly.todo-tree",
     "asabil.meson",
-    "ms-vscode.cpptools"
+    "llvm-vs-code-extensions.vscode-clangd"
   ]
 }
