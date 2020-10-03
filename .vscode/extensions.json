@@ -5,6 +5,7 @@
     "EditorConfig.EditorConfig",
     "Gruntfuggly.todo-tree",
     "asabil.meson",
-    "llvm-vs-code-extensions.vscode-clangd"
+    "llvm-vs-code-extensions.vscode-clangd",
+    "webfreak.debug"
   ]
 }

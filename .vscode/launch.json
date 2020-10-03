@@ -5,15 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "(Windows) Launch",
-      "type": "cppvsdbg",
+      "name": "Debug",
+      "type": "lldb-mi",
       "request": "launch",
-      "program": "build/exe.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": false
+      "target": "./build/exe",
+      "cwd": "${workspaceRoot}",
+      "valuesFormatting": "parseText"
     }
   ]
 }
