@@ -9,6 +9,7 @@
       80
     ]
   },
+  "explorer.confirmDelete": false,
   "mesonbuild": {
     "configureOnOpen": true,
     "configureOptions": [
