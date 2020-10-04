@@ -9,37 +9,40 @@ git submodule update --init --recursive
 
 ## Développement sur GNU+Linux
 
-Installez GCC, Meson, Ninja et GNOME Builder (la version [FlatHub][1] de
-préférence).
+Installez Clang, LLD, Meson, Ninja et VSCodium.
 
 Ouvrez le répertoire depuis GNOME Builder.
 
 ## Développement pour Windows 10
 
-https://aka.ms/vscode
+Add to user env
+ - `VCToolsInstallDir`: `C:\Windows`
 
-https://aka.ms/buildtools
- - Individual components
-   - Compilers, build tools, and runtimes
-     - MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.27)
+Delete to env user path
+ - `windowsapp...`
+
+Add to env user path
+ - `%LOCALAPPDATA%\Programs\Cocktail`
+ - `%LOCALAPPDATA%\Programs\LLVM\bin`
+ - `%LOCALAPPDATA%\Programs\VSCodium\bin`
+
+https://github.com/VSCodium/vscodium/releases/latest
+ - VSCodiumUserSetup-x64-X.Y.Z.exe
+
+Copy Cocktail to `%LOCALAPPDATA%\Programs`
+
+TODO: `%LOCALAPPDATA%\Programs\VCTools` (libcmt.lib)
+
+Install LLVM witih `noadmin`
+https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/LLVM-10.0.0-win64.exe
 
 https://aka.ms/windowssdk
- - Debugging Tools for Windows
- - Windows SDK for Desktop C++ amd64 Apps
-
-https://github.com/mesonbuild/meson/releases/download/0.55.3/meson-0.55.3-64.msi
+ - Nécessite les droits administrateurs car besoin de modifier HKLM
 
 Redémarrez
 
-Menu démarrer
- - x64 Native Tools Command Prompt for VS 2019
-   - `cd %HOMEPATH%\Workspace\inf3610\lab1`
-   - `code .`
+Ouvrez le dossier, installez les extensions recommendées et relancez VSCodium.
 
-Installez les extensions recommendées et relancez VSCode.
+Compilez avec `Ctrl-Shift-B`.
 
-Compilation: `Ctrl-Shift-B`
-
-Déverminage: `F5`
-
-[1]: https://flathub.org/apps/details/org.gnome.Builder
+Lancez le déverminage avec `F5`.
